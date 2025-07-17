@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contacto</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="estilo.css" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="https://www.facebook.com/profile.php?id=61577807078363">
+        <img src="imagenes/Hanstratel_Transp2-1.png" alt="logo2" width="80%"/>
+      </a>
+      <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navBarServ">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navBarServ">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="inicio.html">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="servicios.html">Servicios</a></li>
+          <li class="nav-item"><a class="nav-link" href="catalogo.html">Catálogo</a></li>
+          <li class="nav-item"><a class="nav-link active" href="contacto.html">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container my-5">
+    <div class="row">
+      <div class="col-md-6">
+        <h3><strong>Contáctanos</strong></h3>
+        <form>
+          <div class="mb-3">
+            <label class="form-label">Nombre</label>
+            <input type="text" class="form-control" placeholder="Tu nombre" />
+          </div>
+          <div class="mb-3">
+            <label class="form-label">Correo electrónico</label>
+            <input type="email" class="form-control" placeholder="tucorreo@ejemplo.com" />
+          </div>
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="newsletter" />
+            <label class="form-check-label" for="newsletter">¿Primer correo?</label>
+          </div>
+          <div class="mb-3">
+            <label class="form-label">Mensaje</label>
+            <textarea class="form-control" rows="4" placeholder="Escribe tu mensaje aquí..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+      </div>
+
+      <div class="col-md-6">
+        <h6 class="mb-2">📍 Ubicación</h6>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6562.028423202794!2d-77.04128115174562!3d-12.056903331888662!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c8c6d103eef1%3A0x21e996eeb5d06b7d!2sSheraton%20Lima%20Historic%20Center!5e0!3m2!1ses-419!2spe!4v1752614626251!5m2!1ses-419!2spe" width="100%" height="500" style="border-radius: 10%;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </div>
+
+  <div class="container my-5">
+    <h3><strong>Equipo de contacto</strong></h3>
+    <table class="table table-hover">
+      <thead class="table-dark">
+        <tr>
+          <th>Nombre</th>
+          <th>Área</th>
+          <th>Correo</th>
+          <th>Celular</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>insert_name</td>
+          <td>Soporte</td>
+          <td>name@Hanstratel.com</td>
+          <td>111 111 111</td>
+        </tr>
+        <tr>
+          <td>insert_name</td>
+          <td>Ventas</td>
+          <td>name@Hanstratel.com</td>
+          <td>111 111 111</td>
+        </tr>
+        <tr>
+          <td>insert_name</td>
+          <td>Técnica</td>
+          <td>name@Hanstratel.com</td>
+          <td>111 111 111</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <footer>
+    <div class="container">
+      <p class="mb-0">&copy; 2025 Hanstratel</p>
+    </div>
+  </footer>
+
+</body>
+</html>

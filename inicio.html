@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Inicio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous" />
+  <link rel="stylesheet" href="estilo.css" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="https://www.facebook.com/profile.php?id=61577807078363">
+        <img src="imagenes/Hanstratel_Transp2-1.png" alt="logo2" width="80%"/>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navBar" aria-controls="navBar" aria-expanded="false" aria-label="Menú">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navBar">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="catalogo.html">Catálogo</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="servicios.html">Servicios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contacto.html">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <header class="bg-light py-1">
+<div class="container py-3">
+  <div class="row align-items-center">
+<div class="container py-4">
+  <div class="row align-items-center">
+    <!-- Columna del texto -->
+    <div class="col-md-6">
+      <h1 class="display-4">Bienvenido a Hanstratel en colaboración con <strong><p2>SAMSUNG <br>GALAXY   A</p2></strong>Series</h1>
+
+      <p class="lead">Los mejores teléfonos al mejor precio.</p>
+      <a href="#" class="btn btn-primary me-2">Ver productos destacados</a>
+      <a href="#" class="btn btn-outline-primary">Ver catálogo</a>
+    </div>
+
+    <!-- Columna del carrusel -->
+    <div class="col-md-6">
+      <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <a href="https://wa.me/51904260843" target="_blank">
+            <img src="imagenes/cyber.png" class="d-block w-100 mx-auto" alt="..."></a>
+          </div>
+          <div class="carousel-item">
+            <a href="https://wa.me/51904260843" target="_blank">
+            <img src="imagenes/CYBER2.png" class="d-block w-100 mx-auto" alt="..."></a>
+          </div>
+          <div class="carousel-item">
+            <a href="https://wa.me/51904260843" target="_blank">
+            <img src="imagenes/BANNER CLARO.png" class="d-block w-100 mx-auto" alt="..."></a>
+          </div>
+        </div>
+
+        <!-- Flecha anterior -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+
+        <!-- Flecha siguiente -->
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+  var myCarousel = document.querySelector('#carouselExample');
+  var carousel = new bootstrap.Carousel(myCarousel, {
+    interval: 2000, // 1 segundo por imagen
+    ride: 'carousel'
+  });
+</script>
+
+
+</header>
+
+  <section id="catalogo" class="py-5">
+    <div class="container">
+      <h2 class="mb-4 text-center">Productos Destacados</h2>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100 text-center">
+            <img src="imagenes/A56.png" class="card-img-top img-fluid mx-auto" alt="Teléfono 1" />
+            <div class="card-body">
+              <h5 class="card-title">Teléfono Galaxy A56</h5>
+              <p class="card-text">Características principales:</p>
+              <li>Memoria: 256gb </li>
+              <li>RAM: 8gb </li>
+              <li>Cámara: 50MP </li>
+              <li>Procesador: Exynos 1580 </li>
+              <br>
+              <a href="#" class="btn btn-outline-primary">Comprar</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 text-center">
+            <img src="imagenes/a36.png" class="card-img-top img-fluid mx-auto" alt="Teléfono 2" />
+            <div class="card-body">
+              <h5 class="card-title">Teléfono Galaxy A36</h5>
+              <p class="card-text">Características principales:</p>
+              <li>Memoria: 128/256gb </li>
+              <li>RAM: 6/8gb </li>
+              <li>Cámara: 50MP </li>
+              <li>Procesador: Snapdragon 6 Gen 3 </li>
+              <br>
+              <a href="#" class="btn btn-outline-primary">Comprar</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 text-center">
+            <img src="imagenes/A16.png" class="card-img-top img-fluid mx-auto" alt="Teléfono 3" />
+            <div class="card-body">
+              <h5 class="card-title">Teléfono Galaxy A16</h5>
+              <p class="card-text">Características principales:</p>
+              <li>Memoria: 128/256gb </li>
+              <li>RAM: 4/6gb </li>
+              <li>Cámara: 50MP </li>
+              <li>Procesador: Exynos 1330 </li>
+              <br>
+              <a href="#" class="btn btn-outline-primary">Comprar</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container text-center">
+      <p class="mb-0">&copy; 2025 Hanstratel</p>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,61 @@
+header img {
+    width: 100%;
+}
+
+.card-img-top {
+    max-width: 300px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+form .form-control,
+form .form-check-input {
+    border-radius: 0.5rem;
+}
+
+form .btn {
+    padding: 0.5rem 1.5rem;
+}
+
+.table-hover tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+footer {
+    background-color: #212529;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+h6{
+  font-size: 30px;
+}
+@font-face{
+    font-family: "samsung";
+    src: url(fuentes/samsung-font.ttf);
+    font-weight: bold;
+    font-style: bold;
+}
+p2{
+    font-family: "samsung";
+    font-weight: bold;
+}
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-image: none; /* Elimina el ícono blanco por defecto */
+    width: 2rem;
+    height: 2rem;
+    background-color: black; /* Fondo negro */
+    mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 16 16'%3E%3Cpath d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/%3E%3C/svg%3E");
+    mask-size: cover;
+    -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 16 16'%3E%3Cpath d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/%3E%3C/svg%3E");
+    -webkit-mask-size: cover;
+  }
+
+  .carousel-control-next-icon {
+    transform: rotate(180deg); /* Gira para la flecha derecha */
+  }
